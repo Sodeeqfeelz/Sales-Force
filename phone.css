@@ -4,4 +4,128 @@
         padding: 0px;
         box-sizing: border-box;
     }
+    #div1 {
+        display: flex;
+        height: 12vh;
+        align-items: center;
+        padding-left: 40px;
+    }
+    #imgsale {
+        padding-right: 35px;
+        width: 20vw;
+    }
+    .about1 {
+        display: none;
+    }
+    .about2 {
+        padding-left: 0px;
+    }
+    #a2 {
+        color: #032D60;
+        font-size: 14.5px;
+    }
+    #imgone1 {
+        margin-left: 130px;
+        position: relative;
+        top: 0px;
+    }
+    #imgone2 {
+        display: none;
+    }
+    #imgone3 {
+        margin-left: 20px;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+    .post {
+        display: none;
+    }
+    #post {
+        display: none;
+    }
+    #log {
+        display: none;
+    }
+    .a2 {
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 16.2px;
+    }
+    #b1 {
+        padding: 6px 15px 6px 15px;
+        color: white;
+        background-color: #1c6b2fe8;
+        border-radius: 5px;
+        border: 0px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 20px;
+        position: relative;
+        top: -5px;
+    }
+    #b1:hover {
+        background-color: #1C3326;
+    }
+    #div2 {
+        position: relative;
+        top: -21px;
+        height: 112vh;
+        flex-direction: column;
+        background-image: url(images/imbg1.webp);
+        background-size: cover;
+        background-position: -170px;
+    }
+    #deliv {
+        position: relative;
+        top: 30px;
+        left: 20px;
+        height: 60vh;
+        width: 90vw;
+    }
+    h1 {
+        font-size: 40px;
+        font-weight: bold;
+        color: #032D60;
+    }
+    #para1 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #a3 {
+        color: #032D60;
+    }
+    .divButton {
+        margin-top: 30px;
+    }
+    #button1 {
+        padding: 16px 32px 16px 32px;
+        width: 90vw;
+        margin-right: 20px;
+    }
+    #button2 {
+        width: 90vw;
+        margin-top: 20px;
+    }
+    #home {
+        position: relative;
+        top: 50px;
+        left: 25px;
+        float: bottom;
+        height: 40vh;
+        width: 90vw;
+    }
+    #div3 {
+        border: 1px solid blue;
+        height: 85.5vh;
+        position: relative;
+        top: -21px;
+    }
+    #h21 {
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin-top: 10px;
+        color: #032D60;
+    }
 }
