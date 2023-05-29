@@ -6,6 +6,7 @@
     }
     #div1 {
         display: flex;
+        width: 100vw;
         height: 12vh;
         align-items: center;
         padding-left: 40px;
@@ -28,6 +29,7 @@
         margin-left: 130px;
         position: relative;
         top: 0px;
+        left: -50px;
     }
     #imgone2 {
         display: none;
@@ -36,7 +38,7 @@
         margin-left: 20px;
         position: relative;
         top: 0px;
-        left: 0px;
+        left: -50px;
     }
     .post {
         display: none;
@@ -60,16 +62,15 @@
         border: 0px;
         font-size: 14px;
         font-weight: bold;
-        margin-left: 20px;
-        position: relative;
-        top: -5px;
+        margin-left: -30px;
+        margin-top: -5px;
     }
     #b1:hover {
         background-color: #1C3326;
     }
     #div2 {
         position: relative;
-        top: -21px;
+        top: 89px;
         height: 112vh;
         flex-direction: column;
         background-image: url(images/imbg1.webp);
@@ -109,17 +110,16 @@
     }
     #home {
         position: relative;
-        top: 50px;
+        top: 100px;
         left: 25px;
         float: bottom;
         height: 40vh;
-        width: 90vw;
+        width: 100vw;
     }
     #div3 {
-        border: 1px solid blue;
-        height: 85.5vh;
+        height: 210vh;
         position: relative;
-        top: -21px;
+        top: 89px;
     }
     #h21 {
         font-size: 32px;
@@ -127,14 +127,6 @@
         text-align: center;
         margin-top: 10px;
         color: #032D60;
-    }
-    #div3 {
-        height: 200vh;
-        position: relative;
-        top: -20px;
-    }
-    #h21 {
-        font-size: 32px;
     }
     #hold {
         margin: 0px 25px 0px 25px;
@@ -161,5 +153,432 @@
     #carda2 {
         margin-left: 35px;
         font-size: 15px;
+    }
+    #div4 {
+        height: 340vh;
+        position: relative;
+        top: 89px;
+    }
+    #hold2 {
+        margin: 10px 45px 0px 10px;
+    }
+    #h22 {
+        font-size: 32px;
+        width: 80vw;
+        margin: 0px 250px 0px 30px;
+    }
+    #cardTwo {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 10px;
+    }
+    #card2 {
+        text-align: center;
+    }
+    #im2 {
+        max-width: 90vw;
+        margin-top: 20px;
+    }
+    #note {
+        font-size: 14px;
+    }
+    #h3Note {
+        font-size: 25px;
+    }
+    #note2 {
+        width: 90vw;
+        font-size: 18px;
+        text-align: center;
+    }
+    #div5 {
+        height: 100vh;
+        top: 89px;
+        background-image: none;
+        background-image: url(images/hp-industries-page-break-bg.jpg);
+    }
+    #arH2 {
+        margin-top: 50px;
+    }
+    #arP {
+        font-size: 18px;
+        margin: 25px 25px 0px 25px;
+    }
+    #arB {
+        font-size: 18px;
+        width: 80vw;
+    }
+    #divAr1{
+        background-color: white;
+        border: 1px solid white;
+    }
+    #divAr2 {
+        flex-wrap: wrap;
+        margin: 0px 0px 0px 0px;
+        gap: 10px;
+        padding-left: 70px;
+        padding-top: 65px;
+        background-color: white;
+    }
+    #round {
+        width: 20vw;
+        height: 10vh;
+        padding: 20px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    #imgAr {
+        max-width: 10vw;
+    }
+    #href1 {
+        width: 25vw;
+        margin-top: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+    #div6 {
+        height: 90vh;
+        position: relative;
+        top: 89px;
+        text-align: center;
+    }
+    #H2One {
+        font-size: 32px;
+        width: 80vw;
+        margin-left: 30px;
+    }
+    #para1 {
+        font-size: 20px;
+        margin: 15px;
+    }
+    #button1-2 {
+        border: 2px solid #0176D3;
+        margin-top: 20px;
+        font-size: 16px;
+        width: 80vw;
+    }
+    #twoAr {
+        flex-wrap: wrap;
+        margin: 63px 0px 0px 0px;
+        justify-content: center;
+    }
+    #img1 {
+        width: 35vw;
+        height: 10vh;
+    }
+    #cust1 {
+        max-width: 25vw;
+    }
+    #div7 {
+        height: 240vh;
+        margin-top: 89px;
+    }
+    #learnH2 {
+        font-size: 32px;
+        width: 100vw;
+        margin: 15px 0px 0px 0px;
+    }
+    #para2 {
+        font-size: 18px;
+        width: 80vw;
+        margin: 20px 0px 0px 30px;
+    }
+    #box {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 25px;
+        gap: 20px;
+    }
+    #box1 {
+        width: 87vw;
+    }
+    #boxImg {
+        max-width: 30vw;
+    }
+    #mod {
+        width: 18vw;
+        font-size: 15px;
+        margin-top: 7px;
+    }
+    #boxH3 {
+        font-size: 27px;
+    }
+    #boxPara {
+        font-size: 18px;
+        width: 75vw;
+    }
+    #aBox {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #button2-2 {
+        border: 2px solid #0176D3;
+        color: #0176D3;
+        margin-top: 90px;
+        font-size: 16px;
+        width: 80vw;
+    }
+    #div8 {
+        height: 22vh;
+    }
+    #div8H2 {
+        font-size: 40px;
+        margin-top: 0px;
+        width: 90vw;
+        margin-left: 20px;
+    }
+    #div9 {
+        height: 70vh;
+    }
+    #bigImg {
+        max-width: 90vw;
+        margin: 20px 20px 0px 20px;
+    }
+    #float {
+        width: 80vw;
+        margin: 20px 0px 0px 20px;
+    }
+    #floatH2 {
+        font-size: 35px;
+        color: #032D60;
+    }
+    #floatPara {
+        width: 80vw;
+        font-size: 18px;
+    }
+    #button3 {
+        border: 2px solid #0176D3;
+        font-size: 16px;
+        margin-left: 20px;
+        width: 80vw;
+        font-weight: bold;
+    }
+    #div10 {
+        height: 242vh;
+        background-position-y: 402vw;
+    }
+    #page {
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 20px;
+    }
+    #page1 {
+        width: 90vw;
+    }
+    #pageImg {
+        max-width: 90vw;
+    }
+    #mod1 {
+        width: 18vw;
+        margin-top: 30px;
+    }
+    #pageH3 {
+        font-size: 22px;
+        margin-top: 15px;
+        width: 80vw;
+    }
+    #pagePara {
+        margin: 20px 0px 40px 0px;
+        font-size: 16px;
+        width: 70vw;
+    }
+    #aPage {
+        font-size: 16px;
+    }
+    #div11 {
+        border: 1px solid white;
+        height: 410vw;
+    }
+    #inspH2 {
+        font-size: 32px;
+        width: 90vw;
+        margin-left: 20px;
+        text-align: center;
+    }
+    #insp {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 30px;
+        gap: 20px;
+    }
+    #insp1 {
+        width: 85vw;
+        height: 65vh;
+    }
+    #pageImg {
+        max-width: 85vw;
+    }
+    #mod2 {
+        width: 18vw;
+        font-size: 12px;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+    #inspH3 {
+        font-size: 20px;
+        margin-top: 20px;
+        width: 70vw;
+    }
+    #aInsp {
+        font-size: 16px;
+    }
+    #div12 {
+        border: 1px solid white;
+        height: 220vw;
+    }
+    #meetH2 {
+        font-size: 32px;
+        width: 90vw;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #cardOne {
+        flex-direction: column;
+        padding-left: 20px;
+        gap: 20px;
+    }
+    #cardT1 {
+        width: 90vw;
+    }
+    #btn {
+        width: 15vw;
+        font-size: 14px;
+    }
+    #cardTh3 {
+        width: 70vw;
+    }
+    #link1 {
+        font-size: 16px;
+    }
+    #button4 {
+        border: 2px solid #0176D3;
+        margin-top: 65px;
+        font-size: 16px;
+        width: 90vw;
+        margin: 20vw 0vw 0vw 20px;
+    }
+    #div13 {
+        border: 1px solid white;
+        height: 200vw;
+    }
+    #imgLogos {
+        max-width: 90%;
+        margin-left: 20px;
+        margin-top: -50px;
+    }
+    #divLogos {
+        width: 90vw;
+        margin-left: 20px;
+    }
+    #logosH2 {
+        color:  #001639;
+        font-size: 35px;
+    }
+    #logosPara {
+        font-size: 18px;
+    }
+    #div14 {
+        border: 1px solid white;
+        height: 130vw;
+    }
+    #tryH2 {
+        font-size: 32px;
+        width: 85vw;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    #button5 {
+        font-size: 16px;
+        width: 85vw;
+        margin: 5vw 0vw 0vw 25px;
+    }
+    #imgTry {
+        max-width: 90%;
+        margin-left: 20px;
+    }
+    #div15 {
+        border: 1px solid white;
+        height: 110vh;
+    }
+    #get1 {
+        margin-left: 25px;
+        height: 95vh;
+        width: 87vw;
+        flex-direction: column;
+    }
+    #get2 {
+        width: 87vw;
+        margin-left: 25px;
+    }
+    #getH2 {
+        font-size: 35px;
+    }
+    #getBtn {
+        font-size: 16px;
+        width: 75vw;
+        margin-top: 30px;
+    }
+    #imgGet {
+        width: 50vh;
+        float: right;
+        margin-left: 0px;
+    }
+    #div16 {
+        border: 1px solid white;
+        height: 40vh;
+        border: 1px solid;
+    }
+    #divBody1 {
+        display: none;
+    }
+    #divBody2 {
+        height: 40vh;
+        flex-direction: column;
+    }
+    #dropdown {
+        width: 37vw;
+        height: 5vh;
+        margin: 10px 0px 40px 120px;
+    }
+    #dropSel {
+        width: 24vw;
+    }
+    #paraLast, #paraLast2 {
+        margin: 20px 0px 0px 30px;
+        width: 85vw;
+    }
+    #paraLast2 {
+        width: 70vw;
+    }
+    #imgHla {
+        position: relative;
+        top: 7px;
+    }
+    #hang {
+        background-color: transparent;
+        margin-top: 120px;
+        height: 20vh;
+    }
+    #hang1, #hang2 {
+        background-color: #0176D3;
+        margin: 10px 0px 0px 20px;
+        width: 15vw;
+        height: 15vw;
+        border-radius: 100%;
+    }
+    #imgHang {
+        display: none;
+    }
+    #h3Hang {
+        display: none;
+    }
+    #paraHang {
+        display: none;
+    }
+    #btnHang1 {
+       display: none;
+    }
+    #btnHang2 {
+        display: none;
     }
 }

@@ -72,9 +72,10 @@ body {
 #post {
     font-size: 15px;
     position: relative;
-    top: -45px;
+    top: 45px;
     left: 870px;
     color: #032D60;
+    z-index: 1;
 }
 .a2 {
     text-decoration: none;
@@ -123,7 +124,7 @@ h1 {
     color: #032D60;
 }
 .divButton {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 #button1 {
     padding: 16px 32px 16px 32px;
@@ -333,7 +334,7 @@ h1 {
     font-size: 17px;
     margin-top: 15px;
 }
-#button1 {
+#button1-2 {
     border: 1px solid #0176D3;
     color: #0176D3;
     margin-top: 45px;
@@ -345,7 +346,7 @@ h1 {
     font-weight: 600;
     cursor: pointer;
 }
-#button1:hover {
+#button1-2:hover {
     border: 1px solid;
     background-color: #EAF5FE;
     color: black;
@@ -436,7 +437,7 @@ h1 {
 #href3 {
     text-decoration: none;
 }
-#button2 {
+#button2-2 {
     border: 1px solid #0176D3;
     color: #0176D3;
     margin-top: 90px;
@@ -448,7 +449,7 @@ h1 {
     font-weight: 600;
     cursor: pointer;
 }
-#button2:hover {
+#button2-2:hover {
     border: 1px solid;
     background-color: #EAF5FE;
     color: black;
@@ -459,25 +460,493 @@ h1 {
     top: 22px;
 }
 #div8H2 {
-    font-size: 35px;
+    font-size: 45px;
+    text-align: center;
     margin-top: 10px;
     color: #032D60;
     width: 60vw;
     margin-left: 24vw;
 }
 #div9 {
-    border: 1px solid blue;
+    border: 1px solid white;
     height: 60vh;
+    margin-top: 30px;
     position: relative;
-    top: 22px;
+    top: 40px;
 }
 #bigImg {
-    max-width: 30vw;
+    max-width: 41vw;
     float: right;
+    margin: 20px 97px 0px 0px;
+}
+#float {
+    width: 40vw;
+    margin: 20px 0px 0px 95px;
+}
+#floatH2 {
+    font-size: 37px;
+    margin-top: 70px;
+}
+#floatPara {
+    width: 31vw;
+    line-height: 25px;
+    margin-top: 20px;
+}
+#button3 {
+    border: 1px solid #0176D3;
+    color: #0176D3;
+    margin-top: 45px;
+    font-size: 13px;
+    width: 11.3vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+#button3:hover {
+    border: 1px solid;
+    background-color: #EAF5FE;
+    color: black;
 }
 #div10 {
-    border: 1px solid;
-    height: 50vh;
+    border: 1px solid rgb(236, 246, 250);
+    height: 115vh;
     position: relative;
-    top: 22px;
+    top: 40px;
+    background-image: url(images/hp-page-break-img-hills\ \(1\).png);
+    background-size: contain;
+    background-position-y: 27.7vw;
+    background-repeat: no-repeat;
+    background-color: rgb(236, 246, 250);
+}
+#page {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 95px;
+    gap: 40px;
+}
+#page1 {
+    width: 26vw;
+    height: 75vh;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: white;
+}
+#pageImg {
+    max-width: 26vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#cont1 {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+#mod1 {
+    width: 6vw;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 3px;
+    color: #001639;
+    background-color: #e2f2fd;
+    font-weight: 600;
+}
+#pageH3 {
+    font-size: 23px;
+    margin-top: 8px;
+    color: #001639;
+    width: 20vw;
+}
+#pagePara {
+    margin: 10px 0px 32px 0px;
+    font-size: 14px;
+    width: 21vw;
+    line-height: 25px;
+}
+#aPage {
+    font-size: 14px;
+    color: #001639;
+    font-weight: 600;
+}
+#href4 {
+    text-decoration: none;
+}
+#div11 {
+    border: 1px solid white;
+    height: 50vw;
+    margin-top: 40px;
+}
+#inspH2 {
+    font-size: 35px;
+    margin-top: 40px;
+    color: #032D60;
+    width: 60vw;
+    margin-left: 23vw;
+}
+#insp {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 95px;
+    gap: 40px;
+}
+#insp1 {
+    width: 26vw;
+    height: 70vh;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: white;
+}
+#pageImg {
+    max-width: 26vw;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#mod2 {
+    width: 6.7vw;
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 3px;
+    color: #001639;
+    background-color: #e2f2fd;
+    font-weight: 600;
+}
+#inspH3 {
+    font-size: 23px;
+    margin-top: 8px;
+    color: #001639;
+    width: 23vw;
+    margin-bottom: 60px;
+}
+#aInsp {
+    font-size: 14px;
+    color: #001639;
+    font-weight: 600;
+}
+#href4 {
+    text-decoration: none;
+}
+#div12 {
+    border: 1px solid white;
+    height: 35vw;
+}
+#meetH2 {
+    text-align: center;
+    font-size: 35px;
+    width: 55vw;
+    margin-left: 20vw;
+    color: #001639;
+    font-weight: bold;
+}
+#cardOne {
+    margin-top: 50px;
+    display: flex;
+    padding-left: 100px;
+    gap: 40px;
+}
+#btn {
+    width: 5vw;
+    font-size: 12px;
+    padding: 7px 0px 7px 0px;
+    border-radius: 30px;
+    text-align: center;
+    color: #001639;
+    background-color: #e2f2fd;
+    font-weight: 600;
+}
+#cardT1 {
+    width: 26vw;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px rgb(204, 204, 204);
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+#cardTh3 {
+    font-size: 23px;
+    margin-top: 8px;
+    color: #001639;
+    width: 23vw;
+    margin-bottom: 10px;
+}
+#link1 {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+}
+#button4 {
+    border: 1px solid #0176D3;
+    color: #0176D3;
+    margin-top: 45px;
+    font-size: 13px;
+    width: 20vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 7vw 0vw 0vw 40vw;
+}
+#button4:hover {
+    border: 1px solid;
+    background-color: #EAF5FE;
+    color: black;
+}
+#div13 {
+    border: 1px solid white;
+    height: 42vw;
+}
+#imgLogos {
+    max-width: 34%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#divLogos {
+    width: 32vw;
+    height: 30vw;
+    margin-left: 50vw;
+}
+#logosH2 {
+    color:  #001639;
+    font-size: 37px;
+    margin-top: 50px;
+}
+#logosPara {
+    margin-top: 20px;
+    line-height: 25px;
+}
+#div14 {
+    border: 1px solid white;
+    height: 61vw;
+}
+#tryH2 {
+    font-size: 35px;
+    text-align: center;
+    width: 55vw;
+    margin-left: 20vw;
+    margin-top: 50px;
+    color: #072b64;
+    font-weight: bold;
+}
+#button5 {
+    border: 1px solid;
+    color: white;
+    margin-top: 45px;
+    font-size: 13px;
+    width: 12vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: #0176D3;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 2vw 0vw 0vw 41vw;
+}
+#button5:hover {
+    border: 1px solid;
+    background-color: #072b64;
+    color: black;
+}
+#imgTry {
+    max-width: 68%;
+    margin-top: 47px;
+    margin-left: 15.7vw;
+}
+#div15 {
+    border: 1px solid white;
+    height: 68.5vh;
+}
+#get {
+    height: 55vh;
+    margin-top: 60px;
+}
+#get1 {
+    margin-left: 95px;
+    height: 51vh;
+    width: 84.5vw;
+    border-radius: 20px;
+    box-shadow: 1px 2px 10px 1px rgb(204, 204, 204);
+    display: flex;
+}
+#get2 {
+    width: 34vw;
+    height: 51vh;
+    margin-left: 100px;
+}
+#getH2 {
+    font-size: 37px;
+    color: #072b64;
+    font-weight: bold;
+    margin-top: 47px;
+    line-height: 45px;
+}
+#getBtn {
+    margin-top: 50px;
+    border: 1px solid;
+    color: white;
+    font-size: 13px;
+    width: 11vw;
+    height: 7vh;
+    border-radius: 5px;
+    background-color: #0176D3;
+    font-weight: 600;
+    cursor: pointer;
+}
+#getBtn:hover {
+    border: 1px solid;
+    background-color: #072b64;
+    color: black;
+}
+#imgGet {
+    max-width: 100%;
+    width: 70vh;
+    float: right;
+    margin-left: 120px;
+    zoom: 90px;
+}
+#div16 {
+    height: 82vh;
+}
+#divBody1 {
+    height: 64vh;
+    display: flex;
+    padding: 60px 0px 0px 80px;
+}
+#last1B {
+    height: 46vh;
+    width: 15vw;
+    margin-right: 160px;
+}
+#imgLast {
+    max-width: 40%;
+    margin-bottom: 42px;
+}
+#imgLast1 {
+    max-width: 14%;
+    margin-right: 7px;
+}
+#pLast1 {
+    font-size: 13px;
+    margin: 20px 0px 25px 0px;
+    font-weight: bold;
+    color: rgb(92, 91, 91);
+}
+#aLast {
+    font-size: 13px;
+    font-weight: bold;
+    color: #001639d5;
+}
+#last1 {
+    height: 46vh;
+    width: 12.7vw;
+    margin-right: 110px;
+}
+#lastH5 {
+    margin-bottom: 30px;
+    color: rgb(41, 41, 41);
+}
+#pLast2 {
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 12px;
+    color: rgba(0, 0, 255, 0.685);
+}
+#divBody2 {
+    height: 18vh;
+    background-color: #072b64;
+    display: flex;
+}
+#dropdown {
+    border: 1px solid white;
+    width: 12.2vw;
+    height: 6.5vh;
+    border-radius: 5px;
+    margin: 20px 0px 0px 18px;
+    background-color: transparent;
+}
+#imgTog {
+    width: 25px;
+    margin-left: 15px;
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+#dropSel {
+    border: 0px;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+    width: 8vw;
+}
+option {
+    color: #0176D3;
+    font-size: 14px;
+}
+#paraLast, #paraLast2 {
+    color: white;
+    margin: 20px 0px 0px 20px;
+    font-size: 12px;
+}
+#hla {
+    margin-right: 20px;
+    color: #0176D3;
+}
+#imgHla {
+    position: relative;
+    top: 7px;
+}
+#hang {
+    width: 23.5vw;
+    height: 37vh;
+    position: absolute;
+    top: 58vh;
+    left: 73vw;
+    background-color:  #0176D3;
+    border-radius: 10px;
+    position: fixed;
+    text-align: center;
+}
+#imgHang {
+    max-width: 12%;
+    margin-top: 20px;
+}
+#h3Hang {
+    color: white;
+    font-size: 26px;
+    margin-top: 7px;
+}
+#paraHang {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 18vw;
+}
+#btnHang1 {
+    border: 0px;
+    height: 7.2vh;
+    width: 8vw;
+    background-color: white;
+    cursor: pointer;
+    color: #0176D3;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#btnHang2 {
+    border: 0px;
+    font-size: 15px;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
 }
